@@ -16,6 +16,11 @@ if (n1 > n2){
     printf("O maior número é o: %.i", n2);
 } 
 
+if (n1 == n2)
+{
+    printf("\nMesmo número mano.");
+}
+
 
 return 0;
 }
