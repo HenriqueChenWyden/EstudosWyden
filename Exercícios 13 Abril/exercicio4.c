@@ -22,18 +22,16 @@ if (n3 < n2)
 {
     printf ("Por favor, insira em ordem crescente, recomeçe o programa.");
     return 0;
-}
-
+} else {
 printf("Digite o quarto número: ");
 scanf("%f", &n4);
+}
 
-if (n1 > n2 && n1 > n3) {
-    if (n1 < n4){
-    printf ("Número: %.2f, %.2f, %.2f", n1, n2, n3, n4);
+if (n1 > n2 && n1 > n3){
+    if (n2 > n3){
+        printf("Número: %.2f, %.2f, %.2f, %.2f \n", n1, n2, n3, n4");
     }
-    if (n2 < n3){
-       printf ("Número: %.2f, %.2f, %.2f", n1, n3, n2, n4);
-    }
+    
 }
 
 return 0;
