@@ -64,5 +64,4 @@ int main(){
     } else
     printf("\nCódigo Inválido! Digite um código válido.");
     return 0;
-
 }
