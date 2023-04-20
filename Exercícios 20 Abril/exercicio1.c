@@ -37,31 +37,31 @@ int main()
 
     if (ano > ano2)
     {
-        printf("A maior é a primeira: %i/%i/%i", dia, mes, ano);
+        printf("A maior é a primeira: %i/%i/%i - %i/%i/%i", dia, mes, ano, dia2, mes2, ano2);
     }
     else if (ano < ano2)
     {
-        printf("A maior é a segunda: %i/%i/%i", dia2, mes2, ano2);
+        printf("A maior é a segunda: %i/%i/%i - %i/%i/%i", dia2, mes2, ano2, dia, mes, ano);
     }
     else
     {
         if (mes > mes2)
         {
-            printf("A maior é a primeira: %i/%i/%i", dia, mes, ano);
+            printf("A maior é a primeira: %i/%i/%i - %i/%i/%i", dia, mes, ano, dia2, mes2, ano2);
         }
         else if (mes < mes2)
         {
-            printf("A maior é a segunda: %i/%i/%i", dia2, mes2, ano2);
+            printf("A maior é a segunda: %i/%i/%i - %i/%i/%i", dia2, mes2, ano2, dia, mes, ano);
         }
         else
         {
             if (dia > dia2)
             {
-                printf("A maior é a primeira: %i/%i/%i", dia, mes, ano);
+                printf("A maior é a primeira: %i/%i/%i - %i/%i/%i", dia, mes, ano, dia2, mes2, ano2);
             }
             else if (dia < dia2)
             {
-                printf("A maior é a segunda: %i/%i/%i", dia2, mes2, ano2);
+                printf("A maior é a segunda: %i/%i/%i - %i/%i/%i", dia2, mes2, ano2, dia, mes, ano);
             }
         }
     }
