@@ -13,5 +13,7 @@ int main(){
         celsius = (fahrenheit - 32) * 5/9.0;
         printf("\n°F%3d || %1.2f°C\n", fahrenheit, celsius);
     }
+return 0;
 
 }
+
